@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
+    <title>Piano Bar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -26,15 +27,19 @@
   <body>
     <div class="container-fluid">
       <div id="piano">
-        <div class="row"><h1 class="col-12" id="piano-header">JS Piano</h1></div>
-        <div class="row justify-content-center" id="piano-keys">
-          <div class="piano-key col-1" data-key="65"><span>A</span></div>
-          <div class="piano-key col-1" data-key="66"><span>B</span></div>
-          <div class="piano-key col-1" data-key="67"><span>C</span></div>
-          <div class="piano-key col-1" data-key="68"><span>D</span></div>
-          <div class="piano-key col-1" data-key="69"><span>E</span></div>
-          <div class="piano-key col-1" data-key="70"><span>F</span></div>
-          <div class="piano-key col-1" data-key="71"><span>G</span></div>
+        <div id="piano-overlay">
+          <div class="row">
+            <h1 class="col-12" id="piano-header">Piano Bar</h1>
+          </div>
+          <div class="row justify-content-center" id="piano-keys">
+            <div class="piano-key col-1" data-key="65"><span>A</span></div>
+            <div class="piano-key col-1" data-key="66"><span>B</span></div>
+            <div class="piano-key col-1" data-key="67"><span>C</span></div>
+            <div class="piano-key col-1" data-key="68"><span>D</span></div>
+            <div class="piano-key col-1" data-key="69"><span>E</span></div>
+            <div class="piano-key col-1" data-key="70"><span>F</span></div>
+            <div class="piano-key col-1" data-key="71"><span>G</span></div>
+          </div>
         </div>
       </div>
     </div>

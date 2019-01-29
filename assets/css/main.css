@@ -1,18 +1,31 @@
+body{
+    background-image: url("../images/pianoBarBG.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+}
 #piano{
     margin-top: 25vh;
-    background-color: black;
+    background-color: rgba(16,12,8,0.98);
+    border-radius: 5px;
+}
+#piano-overlay{
+    background: linear-gradient(210deg,rgb(255, 255, 255, 0.10), rgba(255,255,255,0));
 }
 #piano-header{
     text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+    padding-top: 1em;
 }
 #piano-keys{
     padding-top: 10vh;
 }
 .piano-key{
     border: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
     margin-left: 2%;
     transition: all 0.3s ease;
-    background-color: white;
+    background-color: #fffff0;
     height: 30vh;
     margin-bottom: -0.5%;
 }
@@ -20,7 +33,12 @@
     width: 100%;
     display: inline-block;
     text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
 }
 .play{
-    box-shadow: inset 0px -2px 10px black;
+    box-shadow: inset 0px -2px 20px black;
 }
