@@ -11,6 +11,7 @@
 .piano-key{
     border: 1px solid black;
     margin-left: 2%;
+    transition: all 0.3s ease;
     background-color: white;
     height: 30vh;
     margin-bottom: -0.5%;
